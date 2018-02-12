@@ -1,0 +1,10 @@
+Use HTML, CSS and Javascript build up a personal website
+All pages are: Homepage, Profile, Travels, Resume and Contact
+1. Each page contains a nav bar including all links to other pages;
+2. On Profile page, contains a foot page and a back to top botton;
+3. On Travels page, contains a sliding window, basing on the turtorial on W3School;
+4. On Resume page, contains a foot page and a back to top botton;
+5. The nav bar is a responsive nav bar when window width is smaller than 1000px;
+
+Some flaws:
+1. The media css is not very completed, especially for the content on Resume page, the divs would overlap each other;

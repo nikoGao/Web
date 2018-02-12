@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial=1">
+<link rel="stylesheet" href="homepage.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Travels</title>
+</head>
+
+<body class="bg">
+	<script type="text/javascript" src="functions.js"></script>
+	<!--navigation-->
+	<nav class="nav-class" id="navigation">
+		<a href="Homepage.html" id="home">HOME</a>
+		<a href="Profile.html" id="p">PROFILE</a>
+		<a href="Travels.html" id="travels" class="active">TRAVELS</a>
+		<a href="Resume.html" id="r">RESUME</a>
+		<a href="Contact.html" id="c" style="padding-bottom: 2px; padding-top: 15px;"><div id="contact">CONTACT</div></a>
+		<a href="javascript:void(0)" class="icon" onclick="changesize()">&#9776;</a>
+	</nav>
+	
+	<!--Slide show-->
+	<div class="slides-container">
+		<div class="image fade">
+			<div class="num">1/3</div>
+			<img src="IMG_0008.jpg" class="picture" alt="Singapore" />
+			<div class="text">Singapore</div>
+		</div>
+		<div class="image fade">
+			<div class="num">2/3</div>
+			<img src="IMG_0012.jpg" class="picture" alt="Chang Mai" />
+			<div class="text">Chang Mai</div>
+		</div>
+		<div class="image fade">
+			<div class="num">3/3</div>
+			<img src="IMG_0015.jpg" class="picture" alt="America" />
+			<div class="text">America</div>
+		</div>
+		<a class="prev" onclick="plusPage(-1)">&#10094;</a>
+		<a class="next" onclick="plusPage(1)">&#10095;</a>
+		<div class="dot-container">
+			<span class="botton" onclick="changePage(1)"></span>
+			<span class="botton" onclick="changePage(2)"></span>
+			<span class="botton" onclick="changePage(3)"></span>
+		</div>
+	</div>
+	<div class="description">
+		<h1 class="heading">Travelling</h1>
+		<p class="para1"> I'm a girl like travelling around the world. In the past few years, I have visited many different countries with my friends and my family. In each trip, I can have the chance to experience various kinds of culture, taste many interesting food and, most importantly, meet people with stories.<br><br>
+		To record my trips, I enjoy taking photos. Above slides are some beautiful scenes I took at three places. I think our world is full of amazing views and most of them are fleeting moments. By using photos, I can remain these moments and share with more people.<br><br>
+		There are still many many places I've not seen, not visited before. I hope in the future, I can still kepp my heart to find the beauty in the world and have the ability to travel around all these places.</p>
+	</div>
+	
+	<!--footer-->
+	<div class="footer" style="top:1100px">
+		<h1 style="position: relative; top:30%; text-align: center; color:white">Wish you have a good day</h1>
+		<nav class="nav-class1" style="position: absolute; top: 50%; width: 43%; float:none;margin: auto 34%;" id="footer">
+			<a href="Homepage.html" style="font-size: 15px;">HOME</a>
+			<a href="Profile.html" style="font-size: 15px;">PROFILE</a>
+			<a href="Travels.html" style="font-size: 15px;">TRAVELS</a>
+			<a href="Resume.html" style="font-size: 15px;">RESUME</a>
+			<a href="Contact.html" style="font-size: 15px;">CONTACT</a>
+		</nav>
+		<nav class="icons">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-instagram"></a>
+			<a href="#" class="fa fa-youtube"></a>
+			<a href="#" class="fa fa-google"></a>
+			<a href="#" class="fa fa-linkedin"></a>
+		</nav>
+	</div>
+	<!--javascript-->
+	<script>showSlides(cur_page);</script>
+	
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial=1">
+<link rel="stylesheet" href="homepage.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Profile</title>
+</head>
+
+<body class="bg">
+	<script type="text/javascript" src="functions.js"></script>
+	<!--navigation-->
+	<nav class="nav-class" id="navigation">
+		<a href="Homepage.html">HOME</a>
+		<a href="#Profile" class="active">PROFILE</a>
+		<a href="Travels.html">TRAVELS</a>
+		<a href="Resume.html">RESUME</a>
+		<a href="Contact.html" style="padding-bottom: 2px; padding-top: 15px;"><div id="contact">CONTACT</div></a>
+		<a href="javascript:void(0)" class="icon" onclick="changesize()">&#9776;</a>
+	</nav>
+	<!--Content-->
+	<div class="content">
+		<h1 id="p_title"><span>GET TO KNOW ME</span></h1>
+		<div class="introduce">
+			<div id="hometown">
+				<img src="IMG_0011.jpg" alt="Shanghai" class="photo">
+				<div class="brief">
+					<h3>Hometown</h3>
+					<p >Shanghai is where I grew up. It is a beautiful and modern city. Many people know it as the one of the finanical center of China. The band is a famous sightseeing places for peole all around the world. Many people praise its beauty, however, I' most favor of the history behind it. In the 1930s, the band was a place where romantic stories, horrible things took place.</p>
+				</div>
+			</div>
+			<div id="beijing">
+				<img src="bupt.jpg" alt="BUPT" class="photo">
+				<div class="brief">
+					<h3>Undergraduate College</h3>
+					<p>This is a postcard of my undergraduate school. We call it time square. My undergraduate is a small, but interesting place. We always say, when you stand in the center of the main road, you can see all four gates of our school. I spent four years, living and learning in this place. I left my steps almost at each corner of the campus. I used to hold parties and competitions in this campus. The campus kept many precious moments of mine.</p>
+				</div>
+			</div>
+			<div id="brown">
+				<img src="brown.jpg" alt="Brown" class="photo">
+				<div class="brief">
+					<h3>Graduate College</h3>
+					<p>From now, I've studied in Brown University more than half of a year. Brown is much bigger than my undergraduate college. Its historical feeling inspires me at my first sight of the buildings. The place where Brown is located at is a fresh place for me, not only because this is a place I've never been before. It's also because there is so much snow in Providence. I grew up in a south city in China, so it's hard to keep snow while snowing. I enjoy all these snowy scenes here.</p>
+				</div>
+			</div>
+			<div id="interest">
+				<img src="mayday_1.jpg" alt="Mayday" class="photo">
+				<div class="brief">
+					<h3>Favoriate Band</h3>
+					<p>At my spare time, I love books and music. Mayday is one of my favoriate bands. This year, 2018, is the twenty years birthday of Mayday. It's hard for a group of five people to love music and playing music together for so many years. Not only the rhythm attracts me most, the lyric of many songs inspire me to do what I want to do and to keep chasing my dream.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<button id="back" title="Go to Top" class="fa fa-chevron-up" onclick="backToTop()"></button>
+	
+	<div class="footer" style="top:1500px">
+		<h1 style="position: relative; top:30%; text-align: center;color:white">Wish you have a good day</h1>
+		<nav class="nav-class1" style="position: absolute; top: 50%; width: 43%; float:none;margin: auto 34%;" id="footer">
+			<a href="Homepage.html" style="font-size: 15px;">HOME</a>
+			<a href="Profile.html" style="font-size: 15px;">PROFILE</a>
+			<a href="Travels.html" style="font-size: 15px;">TRAVELS</a>
+			<a href="Resume.html" style="font-size: 15px;">RESUME</a>
+			<a href="Contact.html" style="font-size: 15px;">CONTACT</a>
+		</nav>
+		<nav class="icons">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-instagram"></a>
+			<a href="#" class="fa fa-youtube"></a>
+			<a href="#" class="fa fa-google"></a>
+			<a href="#" class="fa fa-linkedin"></a>
+		</nav>
+	</div>
+	
+	<script>
+		window.onscroll = function() {scrollPage()};
+	</script>
+</body>
+</html>
